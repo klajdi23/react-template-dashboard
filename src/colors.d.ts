@@ -36,7 +36,7 @@ export type TemplateColors = {
   primaryGs: string;
 };
 
-const templateColors: TemplateColors = require('../../colors.json');
+const colors: TemplateColors = require('../../colors.json');
 
-export default {...templateColors};
+export default {...colors};
 

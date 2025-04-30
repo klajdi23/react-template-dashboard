@@ -29,7 +29,7 @@ const AuthSuccessTemplate: React.FC<AuthSuccessTypes>  = (props: AuthSuccessType
                             )}
 
                             <div>
-                                <img src={IconUtils.greenTick} alt="Success" />
+                                <img src={IconUtils.greenTick} alt=" Success" />
                             </div>
 
                             <div className="w-md-mobile text-center justify-center text-neutral-800 text-xl font-semibold  leading-7">{props.title}</div>
