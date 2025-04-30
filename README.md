@@ -85,6 +85,5 @@ Headless UI – UI primitives with accessibility built-in
 
 Utility-first design – Rapid prototyping with consistent styling
 
-Fully responsive by default 
 ---
 
