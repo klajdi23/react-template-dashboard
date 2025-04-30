@@ -26,7 +26,7 @@ This project implements a **clean and reusable pattern** for handling asynchrono
 │       ├── services/       # API and business logic
 │       ├── types/          # Local types for this feature
 │       └── exampleSlice.ts # Redux slice for this feature
-
+```
 ---
 ##  Pattern Overview
 
