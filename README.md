@@ -53,15 +53,17 @@ class FetchExampleData implements IBaseRequest<Post[]> {
     return await client.get("/posts");
   }
 }
+```
 ---
 ## GenericEventHandler
 A lifecycle handler with structured async callbacks:
-
+```ts
 onStart() – Called before request begins
 
 onSuccess(result) – Called when request succeeds
 
 onFailure(error) – Called on error
+```
 ---
 ### EventService
 A chainable utility to manage requests and lifecycle:
