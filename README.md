@@ -4,6 +4,7 @@ This project implements a **clean and reusable pattern** for handling asynchrono
 
 ---
 ## Folder Structure
+```ts
 /src/
 │
 ├── application/
@@ -25,6 +26,7 @@ This project implements a **clean and reusable pattern** for handling asynchrono
 │       ├── services/       # API and business logic
 │       ├── types/          # Local types for this feature
 │       └── exampleSlice.ts # Redux slice for this feature
+
 ---
 ##  Pattern Overview
 
@@ -63,11 +65,13 @@ onFailure(error) – Called on error
 ---
 ### EventService
 A chainable utility to manage requests and lifecycle:
+```ts
 EventService
   .triggerRequest(new FetchExampleData())
   .onStart(() => console.log('Started'))
   .onSuccess((res) => console.log(res))
   .onFailure((err) => console.error(err));
+```
 ---
 ### Styling
 Styling
